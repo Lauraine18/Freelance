@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    padding: 8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+th, 
+td{
+    border: 1px solid white;
+    padding: 0.5rem;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+main{
+    width: 70vh;
+    height: 375px;
+    margin: auto;
+    background-color: #000;
+    color: white;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.card-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    
+}
+/* .table-container{
+    border-collapse: collapse;
+    height: auto;
+}
+
+table{
+    scroll-behavior: smooth;
+    overflow: auto;
+} */
